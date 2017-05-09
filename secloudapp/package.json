@@ -1,0 +1,14 @@
+{
+  "name": "secloudapp",
+  "version": "0.1.0",
+  "description": "An app for classifying sinks and sources in javascript code.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Kyriakos Efthymiadis",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.6.2"
+  }
+}

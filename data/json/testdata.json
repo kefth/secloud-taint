@@ -1,0 +1,146 @@
+[
+    {
+        "cl": -1,
+        "params": [
+            "actual",
+            "expected",
+            "message"
+        ],
+        "textRaw": "assert.notDeepEqual(actual, expected[, message])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "actual",
+            "expected",
+            "message"
+        ],
+        "textRaw": "assert.notDeepStrictEqual(actual, expected[, message])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "actual",
+            "expected",
+            "message"
+        ],
+        "textRaw": "assert.notEqual(actual, expected[, message])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "actual",
+            "expected",
+            "message"
+        ],
+        "textRaw": "assert.notStrictEqual(actual, expected[, message])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "offset",
+            "byteLength",
+            "noAssert"
+        ],
+        "textRaw": "buf.readIntBE(offset, byteLength[, noAssert])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "offset",
+            "byteLength",
+            "noAssert"
+        ],
+        "textRaw": "buf.readIntLE(offset, byteLength[, noAssert])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "value",
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.writeUInt16LE(value, offset[, noAssert])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "data",
+            "...args"
+        ],
+        "textRaw": "console.log([data][, ...args])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "encoding"
+        ],
+        "textRaw": "diffieHellman.getPublicKey([encoding])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "private_key",
+            "encoding"
+        ],
+        "textRaw": "ecdh.setPrivateKey(private_key[, encoding])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "object",
+            "signature",
+            "signature_format"
+        ],
+        "textRaw": "verifier.verify(object, signature[, signature_format])"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "socket.unref()"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "dns.getServers()"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "hostname",
+            "options",
+            "callback"
+        ],
+        "textRaw": "dns.lookup(hostname[, options], callback)"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "os.endianness()"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "timeout.ref()"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "domain"
+        ],
+        "textRaw": "require('url').domainToUnicode(domain)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "name",
+            "value"
+        ],
+        "textRaw": "Constructor: new URLSearchParams([init])"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "urlSearchParams\\[\\@\\@iterator\\]()"
+    }
+]

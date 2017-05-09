@@ -1,0 +1,3847 @@
+[
+    {
+        "cl": 0,
+        "params": [
+            "value",
+            "message"
+        ],
+        "textRaw": "assert(value[, message])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "actual",
+            "expected",
+            "message"
+        ],
+        "textRaw": "assert.deepEqual(actual, expected[, message])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "actual",
+            "expected",
+            "message"
+        ],
+        "textRaw": "assert.deepStrictEqual(actual, expected[, message])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "block",
+            "error",
+            "message"
+        ],
+        "textRaw": "assert.doesNotThrow(block[, error][, message])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "actual",
+            "expected",
+            "message"
+        ],
+        "textRaw": "assert.equal(actual, expected[, message])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "actual",
+            "expected",
+            "message",
+            "operator"
+        ],
+        "textRaw": "assert.fail(actual, expected, message, operator)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "value"
+        ],
+        "textRaw": "assert.ifError(value)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "actual",
+            "expected",
+            "message"
+        ],
+        "textRaw": "assert.notDeepEqual(actual, expected[, message])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "actual",
+            "expected",
+            "message"
+        ],
+        "textRaw": "assert.notDeepStrictEqual(actual, expected[, message])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "actual",
+            "expected",
+            "message"
+        ],
+        "textRaw": "assert.notEqual(actual, expected[, message])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "actual",
+            "expected",
+            "message"
+        ],
+        "textRaw": "assert.notStrictEqual(actual, expected[, message])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "value",
+            "message"
+        ],
+        "textRaw": "assert.ok(value[, message])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "actual",
+            "expected",
+            "message"
+        ],
+        "textRaw": "assert.strictEqual(actual, expected[, message])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "block",
+            "error",
+            "message"
+        ],
+        "textRaw": "assert.throws(block[, error][, message])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "target",
+            "targetStart",
+            "targetEnd",
+            "sourceStart",
+            "sourceEnd"
+        ],
+        "textRaw": "buf.compare(target[, targetStart[, targetEnd[, sourceStart[, sourceEnd]]]])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "target",
+            "targetStart",
+            "sourceStart",
+            "sourceEnd"
+        ],
+        "textRaw": "buf.copy(target[, targetStart[, sourceStart[, sourceEnd]]])"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "buf.entries()"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "otherBuffer"
+        ],
+        "textRaw": "buf.equals(otherBuffer)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "value",
+            "offset",
+            "end",
+            "encoding"
+        ],
+        "textRaw": "buf.fill(value[, offset[, end]][, encoding])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "value",
+            "byteOffset",
+            "encoding"
+        ],
+        "textRaw": "buf.indexOf(value[, byteOffset][, encoding])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "value",
+            "byteOffset",
+            "encoding"
+        ],
+        "textRaw": "buf.includes(value[, byteOffset][, encoding])"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "buf.keys()"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "value",
+            "byteOffset",
+            "encoding"
+        ],
+        "textRaw": "buf.lastIndexOf(value[, byteOffset][, encoding])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.readDoubleBE(offset[, noAssert])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.readDoubleLE(offset[, noAssert])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.readFloatBE(offset[, noAssert])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.readFloatLE(offset[, noAssert])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.readInt8(offset[, noAssert])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.readInt16BE(offset[, noAssert])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.readInt16LE(offset[, noAssert])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.readInt32BE(offset[, noAssert])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.readInt32LE(offset[, noAssert])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "offset",
+            "byteLength",
+            "noAssert"
+        ],
+        "textRaw": "buf.readIntBE(offset, byteLength[, noAssert])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "offset",
+            "byteLength",
+            "noAssert"
+        ],
+        "textRaw": "buf.readIntLE(offset, byteLength[, noAssert])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.readUInt8(offset[, noAssert])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.readUInt16BE(offset[, noAssert])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.readUInt16LE(offset[, noAssert])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.readUInt32BE(offset[, noAssert])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.readUInt32LE(offset[, noAssert])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "offset",
+            "byteLength",
+            "noAssert"
+        ],
+        "textRaw": "buf.readUIntBE(offset, byteLength[, noAssert])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "offset",
+            "byteLength",
+            "noAssert"
+        ],
+        "textRaw": "buf.readUIntLE(offset, byteLength[, noAssert])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "start",
+            "end"
+        ],
+        "textRaw": "buf.slice([start[, end]])"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "buf.swap16()"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "buf.swap32()"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "buf.swap64()"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "encoding",
+            "start",
+            "end"
+        ],
+        "textRaw": "buf.toString([encoding[, start[, end]]])"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "buf.toJSON()"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "buf.values()"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "string",
+            "offset",
+            "length",
+            "encoding"
+        ],
+        "textRaw": "buf.write(string[, offset[, length]][, encoding])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "value",
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.writeDoubleBE(value, offset[, noAssert])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "value",
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.writeDoubleLE(value, offset[, noAssert])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "value",
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.writeFloatBE(value, offset[, noAssert])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "value",
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.writeFloatLE(value, offset[, noAssert])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "value",
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.writeInt8(value, offset[, noAssert])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "value",
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.writeInt16BE(value, offset[, noAssert])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "value",
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.writeInt16LE(value, offset[, noAssert])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "value",
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.writeInt32BE(value, offset[, noAssert])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "value",
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.writeInt32LE(value, offset[, noAssert])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "value",
+            "offset",
+            "byteLength",
+            "noAssert"
+        ],
+        "textRaw": "buf.writeIntBE(value, offset, byteLength[, noAssert])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "value",
+            "offset",
+            "byteLength",
+            "noAssert"
+        ],
+        "textRaw": "buf.writeIntLE(value, offset, byteLength[, noAssert])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "value",
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.writeUInt8(value, offset[, noAssert])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "value",
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.writeUInt16BE(value, offset[, noAssert])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "value",
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.writeUInt16LE(value, offset[, noAssert])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "value",
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.writeUInt32BE(value, offset[, noAssert])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "value",
+            "offset",
+            "noAssert"
+        ],
+        "textRaw": "buf.writeUInt32LE(value, offset[, noAssert])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "value",
+            "offset",
+            "byteLength",
+            "noAssert"
+        ],
+        "textRaw": "buf.writeUIntBE(value, offset, byteLength[, noAssert])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "value",
+            "offset",
+            "byteLength",
+            "noAssert"
+        ],
+        "textRaw": "buf.writeUIntLE(value, offset, byteLength[, noAssert])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "command",
+            "options",
+            "callback"
+        ],
+        "textRaw": "child_process.exec(command[, options][, callback])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "file",
+            "args",
+            "options",
+            "callback"
+        ],
+        "textRaw": "child_process.execFile(file[, args][, options][, callback])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "modulePath",
+            "args",
+            "options"
+        ],
+        "textRaw": "child_process.fork(modulePath[, args][, options])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "command",
+            "args",
+            "options"
+        ],
+        "textRaw": "child_process.spawn(command[, args][, options])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "file",
+            "args",
+            "options"
+        ],
+        "textRaw": "child_process.execFileSync(file[, args][, options])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "command",
+            "options"
+        ],
+        "textRaw": "child_process.execSync(command[, options])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "command",
+            "args",
+            "options"
+        ],
+        "textRaw": "child_process.spawnSync(command[, args][, options])"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "worker.disconnect()"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "worker.isConnected()"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "worker.isDead()"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "signal"
+        ],
+        "textRaw": "worker.kill([signal='SIGTERM'])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "message",
+            "sendHandle",
+            "callback"
+        ],
+        "textRaw": "worker.send(message[, sendHandle][, callback])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "callback"
+        ],
+        "textRaw": "cluster.disconnect([callback])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "env"
+        ],
+        "textRaw": "cluster.fork([env])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "settings"
+        ],
+        "textRaw": "cluster.setupMaster([settings])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "value",
+            "message",
+            "...args"
+        ],
+        "textRaw": "console.assert(value[, message][, ...args])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "obj",
+            "options"
+        ],
+        "textRaw": "console.dir(obj[, options])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "data",
+            "...args"
+        ],
+        "textRaw": "console.error([data][, ...args])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "data",
+            "...args"
+        ],
+        "textRaw": "console.info([data][, ...args])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "data",
+            "...args"
+        ],
+        "textRaw": "console.log([data][, ...args])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "label"
+        ],
+        "textRaw": "console.time(label)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "label"
+        ],
+        "textRaw": "console.timeEnd(label)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "message",
+            "...args"
+        ],
+        "textRaw": "console.trace(message[, ...args])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "data",
+            "...args"
+        ],
+        "textRaw": "console.warn([data][, ...args])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "algorithm",
+            "password"
+        ],
+        "textRaw": "crypto.createCipher(algorithm, password)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "algorithm",
+            "key",
+            "iv"
+        ],
+        "textRaw": "crypto.createCipheriv(algorithm, key, iv)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "details"
+        ],
+        "textRaw": "crypto.createCredentials(details)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "algorithm",
+            "password"
+        ],
+        "textRaw": "crypto.createDecipher(algorithm, password)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "algorithm",
+            "key",
+            "iv"
+        ],
+        "textRaw": "crypto.createDecipheriv(algorithm, key, iv)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "prime",
+            "prime_encoding",
+            "generator",
+            "generator_encoding"
+        ],
+        "textRaw": "crypto.createDiffieHellman(prime[, prime_encoding][, generator][, generator_encoding])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "prime_length",
+            "generator"
+        ],
+        "textRaw": "crypto.createDiffieHellman(prime_length[, generator])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "curve_name"
+        ],
+        "textRaw": "crypto.createECDH(curve_name)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "algorithm"
+        ],
+        "textRaw": "crypto.createHash(algorithm)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "algorithm",
+            "key"
+        ],
+        "textRaw": "crypto.createHmac(algorithm, key)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "algorithm"
+        ],
+        "textRaw": "crypto.createSign(algorithm)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "algorithm"
+        ],
+        "textRaw": "crypto.createVerify(algorithm)"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "crypto.getCiphers()"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "crypto.getCurves()"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "group_name"
+        ],
+        "textRaw": "crypto.getDiffieHellman(group_name)"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "crypto.getHashes()"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "password",
+            "salt",
+            "iterations",
+            "keylen",
+            "digest",
+            "callback"
+        ],
+        "textRaw": "crypto.pbkdf2(password, salt, iterations, keylen, digest, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "password",
+            "salt",
+            "iterations",
+            "keylen",
+            "digest"
+        ],
+        "textRaw": "crypto.pbkdf2Sync(password, salt, iterations, keylen, digest)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "private_key",
+            "buffer"
+        ],
+        "textRaw": "crypto.privateDecrypt(private_key, buffer)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "a",
+            "b"
+        ],
+        "textRaw": "crypto.timingSafeEqual(a, b)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "private_key",
+            "buffer"
+        ],
+        "textRaw": "crypto.privateEncrypt(private_key, buffer)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "public_key",
+            "buffer"
+        ],
+        "textRaw": "crypto.publicDecrypt(public_key, buffer)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "public_key",
+            "buffer"
+        ],
+        "textRaw": "crypto.publicEncrypt(public_key, buffer)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "size",
+            "callback"
+        ],
+        "textRaw": "crypto.randomBytes(size[, callback])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "engine",
+            "flags"
+        ],
+        "textRaw": "crypto.setEngine(engine[, flags])"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "new crypto.Certificate()"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "spkac"
+        ],
+        "textRaw": "certificate.exportChallenge(spkac)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "spkac"
+        ],
+        "textRaw": "certificate.exportPublicKey(spkac)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "spkac"
+        ],
+        "textRaw": "certificate.verifySpkac(spkac)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "output_encoding"
+        ],
+        "textRaw": "cipher.final([output_encoding])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "buffer"
+        ],
+        "textRaw": "cipher.setAAD(buffer)"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "cipher.getAuthTag()"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "auto_padding"
+        ],
+        "textRaw": "cipher.setAutoPadding(auto_padding=true)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "data",
+            "input_encoding",
+            "output_encoding"
+        ],
+        "textRaw": "cipher.update(data[, input_encoding][, output_encoding])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "output_encoding"
+        ],
+        "textRaw": "decipher.final([output_encoding])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "buffer"
+        ],
+        "textRaw": "decipher.setAAD(buffer)"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "buffer"
+        ],
+        "textRaw": "decipher.setAuthTag(buffer)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "auto_padding"
+        ],
+        "textRaw": "decipher.setAutoPadding(auto_padding=true)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "data",
+            "input_encoding",
+            "output_encoding"
+        ],
+        "textRaw": "decipher.update(data[, input_encoding][, output_encoding])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "other_public_key",
+            "input_encoding",
+            "output_encoding"
+        ],
+        "textRaw": "diffieHellman.computeSecret(other_public_key[, input_encoding][, output_encoding])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "encoding"
+        ],
+        "textRaw": "diffieHellman.generateKeys([encoding])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "encoding"
+        ],
+        "textRaw": "diffieHellman.getGenerator([encoding])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "encoding"
+        ],
+        "textRaw": "diffieHellman.getPrime([encoding])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "encoding"
+        ],
+        "textRaw": "diffieHellman.getPrivateKey([encoding])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "encoding"
+        ],
+        "textRaw": "diffieHellman.getPublicKey([encoding])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "private_key",
+            "encoding"
+        ],
+        "textRaw": "diffieHellman.setPrivateKey(private_key[, encoding])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "public_key",
+            "encoding"
+        ],
+        "textRaw": "diffieHellman.setPublicKey(public_key[, encoding])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "other_public_key",
+            "input_encoding",
+            "output_encoding"
+        ],
+        "textRaw": "ecdh.computeSecret(other_public_key[, input_encoding][, output_encoding])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "encoding",
+            "format"
+        ],
+        "textRaw": "ecdh.generateKeys([encoding[, format]])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "encoding"
+        ],
+        "textRaw": "ecdh.getPrivateKey([encoding])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "encoding",
+            "format"
+        ],
+        "textRaw": "ecdh.getPublicKey([encoding[, format]])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "private_key",
+            "encoding"
+        ],
+        "textRaw": "ecdh.setPrivateKey(private_key[, encoding])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "public_key",
+            "encoding"
+        ],
+        "textRaw": "ecdh.setPublicKey(public_key[, encoding])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "encoding"
+        ],
+        "textRaw": "hash.digest([encoding])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "data",
+            "input_encoding"
+        ],
+        "textRaw": "hash.update(data[, input_encoding])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "encoding"
+        ],
+        "textRaw": "hmac.digest([encoding])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "data",
+            "input_encoding"
+        ],
+        "textRaw": "hmac.update(data[, input_encoding])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "private_key",
+            "output_format"
+        ],
+        "textRaw": "sign.sign(private_key[, output_format])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "data",
+            "input_encoding"
+        ],
+        "textRaw": "sign.update(data[, input_encoding])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "data",
+            "input_encoding"
+        ],
+        "textRaw": "verifier.update(data[, input_encoding])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "object",
+            "signature",
+            "signature_format"
+        ],
+        "textRaw": "verifier.verify(object, signature[, signature_format])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "options",
+            "callback"
+        ],
+        "textRaw": "dgram.createSocket(options[, callback])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "type",
+            "callback"
+        ],
+        "textRaw": "dgram.createSocket(type[, callback])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "multicastAddress",
+            "multicastInterface"
+        ],
+        "textRaw": "socket.addMembership(multicastAddress[, multicastInterface])"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "socket.address()"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "port",
+            "address",
+            "callback"
+        ],
+        "textRaw": "socket.bind([port][, address][, callback])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "options",
+            "callback"
+        ],
+        "textRaw": "socket.bind(options[, callback])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "callback"
+        ],
+        "textRaw": "socket.close([callback])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "multicastAddress",
+            "multicastInterface"
+        ],
+        "textRaw": "socket.dropMembership(multicastAddress[, multicastInterface])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "msg",
+            "offset",
+            "length",
+            "port",
+            "address",
+            "callback"
+        ],
+        "textRaw": "socket.send(msg, [offset, length,] port, address[, callback])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "flag"
+        ],
+        "textRaw": "socket.setBroadcast(flag)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "flag"
+        ],
+        "textRaw": "socket.setMulticastLoopback(flag)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "ttl"
+        ],
+        "textRaw": "socket.setMulticastTTL(ttl)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "ttl"
+        ],
+        "textRaw": "socket.setTTL(ttl)"
+    },
+    {
+        "cl": 0,
+        "params": [],
+        "textRaw": "socket.ref()"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "socket.unref()"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "dns.getServers()"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "hostname",
+            "options",
+            "callback"
+        ],
+        "textRaw": "dns.lookup(hostname[, options], callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "address",
+            "port",
+            "callback"
+        ],
+        "textRaw": "dns.lookupService(address, port, callback)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "hostname",
+            "rrtype",
+            "callback"
+        ],
+        "textRaw": "dns.resolve(hostname[, rrtype], callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "hostname",
+            "options",
+            "callback"
+        ],
+        "textRaw": "dns.resolve4(hostname[, options], callback)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "hostname",
+            "options",
+            "callback"
+        ],
+        "textRaw": "dns.resolve6(hostname[, options], callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "hostname",
+            "callback"
+        ],
+        "textRaw": "dns.resolveCname(hostname, callback)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "hostname",
+            "callback"
+        ],
+        "textRaw": "dns.resolveMx(hostname, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "hostname",
+            "callback"
+        ],
+        "textRaw": "dns.resolveNaptr(hostname, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "hostname",
+            "callback"
+        ],
+        "textRaw": "dns.resolveNs(hostname, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "hostname",
+            "callback"
+        ],
+        "textRaw": "dns.resolveSoa(hostname, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "hostname",
+            "callback"
+        ],
+        "textRaw": "dns.resolveSrv(hostname, callback)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "hostname",
+            "callback"
+        ],
+        "textRaw": "dns.resolvePtr(hostname, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "hostname",
+            "callback"
+        ],
+        "textRaw": "dns.resolveTxt(hostname, callback)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "ip",
+            "callback"
+        ],
+        "textRaw": "dns.reverse(ip, callback)"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "servers"
+        ],
+        "textRaw": "dns.setServers(servers)"
+    },
+    {
+        "cl": 0,
+        "params": [],
+        "textRaw": "os.arch()"
+    },
+    {
+        "cl": 0,
+        "params": [],
+        "textRaw": "os.cpus()"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "os.endianness()"
+    },
+    {
+        "cl": 0,
+        "params": [],
+        "textRaw": "os.freemem()"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "os.homedir()"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "os.hostname()"
+    },
+    {
+        "cl": 0,
+        "params": [],
+        "textRaw": "os.loadavg()"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "os.networkInterfaces()"
+    },
+    {
+        "cl": 0,
+        "params": [],
+        "textRaw": "os.platform()"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "os.release()"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "os.tmpdir()"
+    },
+    {
+        "cl": 0,
+        "params": [],
+        "textRaw": "os.totalmem()"
+    },
+    {
+        "cl": 0,
+        "params": [],
+        "textRaw": "os.type()"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "os.uptime()"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "options"
+        ],
+        "textRaw": "os.userInfo([options])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "path",
+            "ext"
+        ],
+        "textRaw": "path.basename(path[, ext])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "path"
+        ],
+        "textRaw": "path.dirname(path)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "path"
+        ],
+        "textRaw": "path.extname(path)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "pathObject"
+        ],
+        "textRaw": "path.format(pathObject)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "path"
+        ],
+        "textRaw": "path.isAbsolute(path)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "...paths"
+        ],
+        "textRaw": "path.join([...paths])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "path"
+        ],
+        "textRaw": "path.normalize(path)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "path"
+        ],
+        "textRaw": "path.parse(path)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "from",
+            "to"
+        ],
+        "textRaw": "path.relative(from, to)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "...paths"
+        ],
+        "textRaw": "path.resolve([...paths])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "str"
+        ],
+        "textRaw": "querystring.escape(str)"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "str",
+            "sep",
+            "eq",
+            "options"
+        ],
+        "textRaw": "querystring.parse(str[, sep[, eq[, options]]])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "obj",
+            "sep",
+            "eq",
+            "options"
+        ],
+        "textRaw": "querystring.stringify(obj[, sep[, eq[, options]]])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "str"
+        ],
+        "textRaw": "querystring.unescape(str)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "emitter",
+            "eventName"
+        ],
+        "textRaw": "EventEmitter.listenerCount(emitter, eventName)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "eventName",
+            "listener"
+        ],
+        "textRaw": "emitter.addListener(eventName, listener)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "eventName",
+            "...args"
+        ],
+        "textRaw": "emitter.emit(eventName[, ...args])"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "emitter.eventNames()"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "emitter.getMaxListeners()"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "eventName"
+        ],
+        "textRaw": "emitter.listenerCount(eventName)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "eventName"
+        ],
+        "textRaw": "emitter.listeners(eventName)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "eventName",
+            "listener"
+        ],
+        "textRaw": "emitter.on(eventName, listener)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "eventName",
+            "listener"
+        ],
+        "textRaw": "emitter.once(eventName, listener)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "eventName",
+            "listener"
+        ],
+        "textRaw": "emitter.prependListener(eventName, listener)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "eventName",
+            "listener"
+        ],
+        "textRaw": "emitter.prependOnceListener(eventName, listener)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "eventName"
+        ],
+        "textRaw": "emitter.removeAllListeners([eventName])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "eventName",
+            "listener"
+        ],
+        "textRaw": "emitter.removeListener(eventName, listener)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "n"
+        ],
+        "textRaw": "emitter.setMaxListeners(n)"
+    },
+    {
+        "cl": 0,
+        "params": [],
+        "textRaw": "Event: 'newListener'"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "Event: 'removeListener'"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "path",
+            "mode",
+            "callback"
+        ],
+        "textRaw": "fs.access(path[, mode], callback)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "path",
+            "mode"
+        ],
+        "textRaw": "fs.accessSync(path[, mode])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "file",
+            "data",
+            "options",
+            "callback"
+        ],
+        "textRaw": "fs.appendFile(file, data[, options], callback)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "file",
+            "data",
+            "options"
+        ],
+        "textRaw": "fs.appendFileSync(file, data[, options])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "path",
+            "mode",
+            "callback"
+        ],
+        "textRaw": "fs.chmod(path, mode, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "path",
+            "mode"
+        ],
+        "textRaw": "fs.chmodSync(path, mode)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "path",
+            "uid",
+            "gid",
+            "callback"
+        ],
+        "textRaw": "fs.chown(path, uid, gid, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "path",
+            "uid",
+            "gid"
+        ],
+        "textRaw": "fs.chownSync(path, uid, gid)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "fd",
+            "callback"
+        ],
+        "textRaw": "fs.close(fd, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "fd"
+        ],
+        "textRaw": "fs.closeSync(fd)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "path",
+            "options"
+        ],
+        "textRaw": "fs.createReadStream(path[, options])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "path",
+            "options"
+        ],
+        "textRaw": "fs.createWriteStream(path[, options])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "path",
+            "callback"
+        ],
+        "textRaw": "fs.exists(path, callback)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "path"
+        ],
+        "textRaw": "fs.existsSync(path)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "fd",
+            "mode",
+            "callback"
+        ],
+        "textRaw": "fs.fchmod(fd, mode, callback)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "fd",
+            "mode"
+        ],
+        "textRaw": "fs.fchmodSync(fd, mode)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "fd",
+            "uid",
+            "gid",
+            "callback"
+        ],
+        "textRaw": "fs.fchown(fd, uid, gid, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "fd",
+            "uid",
+            "gid"
+        ],
+        "textRaw": "fs.fchownSync(fd, uid, gid)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "fd",
+            "callback"
+        ],
+        "textRaw": "fs.fdatasync(fd, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "fd"
+        ],
+        "textRaw": "fs.fdatasyncSync(fd)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "fd",
+            "callback"
+        ],
+        "textRaw": "fs.fstat(fd, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "fd"
+        ],
+        "textRaw": "fs.fstatSync(fd)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "fd",
+            "callback"
+        ],
+        "textRaw": "fs.fsync(fd, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "fd"
+        ],
+        "textRaw": "fs.fsyncSync(fd)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "fd",
+            "len",
+            "callback"
+        ],
+        "textRaw": "fs.ftruncate(fd, len, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "fd",
+            "len"
+        ],
+        "textRaw": "fs.ftruncateSync(fd, len)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "fd",
+            "atime",
+            "mtime",
+            "callback"
+        ],
+        "textRaw": "fs.futimes(fd, atime, mtime, callback)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "fd",
+            "atime",
+            "mtime"
+        ],
+        "textRaw": "fs.futimesSync(fd, atime, mtime)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "path",
+            "mode",
+            "callback"
+        ],
+        "textRaw": "fs.lchmod(path, mode, callback)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "path",
+            "mode"
+        ],
+        "textRaw": "fs.lchmodSync(path, mode)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "path",
+            "uid",
+            "gid",
+            "callback"
+        ],
+        "textRaw": "fs.lchown(path, uid, gid, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "path",
+            "uid",
+            "gid"
+        ],
+        "textRaw": "fs.lchownSync(path, uid, gid)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "existingPath",
+            "newPath",
+            "callback"
+        ],
+        "textRaw": "fs.link(existingPath, newPath, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "existingPath",
+            "newPath"
+        ],
+        "textRaw": "fs.linkSync(existingPath, newPath)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "path",
+            "callback"
+        ],
+        "textRaw": "fs.lstat(path, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "path"
+        ],
+        "textRaw": "fs.lstatSync(path)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "path",
+            "mode",
+            "callback"
+        ],
+        "textRaw": "fs.mkdir(path[, mode], callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "path",
+            "mode"
+        ],
+        "textRaw": "fs.mkdirSync(path[, mode])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "prefix",
+            "options",
+            "callback"
+        ],
+        "textRaw": "fs.mkdtemp(prefix[, options], callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "prefix",
+            "options"
+        ],
+        "textRaw": "fs.mkdtempSync(prefix[, options])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "path",
+            "flags",
+            "mode",
+            "callback"
+        ],
+        "textRaw": "fs.open(path, flags[, mode], callback)"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "path",
+            "flags",
+            "mode"
+        ],
+        "textRaw": "fs.openSync(path, flags[, mode])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "fd",
+            "buffer",
+            "offset",
+            "length",
+            "position",
+            "callback"
+        ],
+        "textRaw": "fs.read(fd, buffer, offset, length, position, callback)"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "path",
+            "options",
+            "callback"
+        ],
+        "textRaw": "fs.readdir(path[, options], callback)"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "path",
+            "options"
+        ],
+        "textRaw": "fs.readdirSync(path[, options])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "file",
+            "options",
+            "callback"
+        ],
+        "textRaw": "fs.readFile(file[, options], callback)"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "file",
+            "options"
+        ],
+        "textRaw": "fs.readFileSync(file[, options])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "path",
+            "options",
+            "callback"
+        ],
+        "textRaw": "fs.readlink(path[, options], callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "path",
+            "options"
+        ],
+        "textRaw": "fs.readlinkSync(path[, options])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "fd",
+            "buffer",
+            "offset",
+            "length",
+            "position"
+        ],
+        "textRaw": "fs.readSync(fd, buffer, offset, length, position)"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "path",
+            "options",
+            "callback"
+        ],
+        "textRaw": "fs.realpath(path[, options], callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "path",
+            "options"
+        ],
+        "textRaw": "fs.realpathSync(path[, options])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "oldPath",
+            "newPath",
+            "callback"
+        ],
+        "textRaw": "fs.rename(oldPath, newPath, callback)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "oldPath",
+            "newPath"
+        ],
+        "textRaw": "fs.renameSync(oldPath, newPath)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "path",
+            "callback"
+        ],
+        "textRaw": "fs.rmdir(path, callback)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "path"
+        ],
+        "textRaw": "fs.rmdirSync(path)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "path",
+            "callback"
+        ],
+        "textRaw": "fs.stat(path, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "path"
+        ],
+        "textRaw": "fs.statSync(path)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "target",
+            "path",
+            "type",
+            "callback"
+        ],
+        "textRaw": "fs.symlink(target, path[, type], callback)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "target",
+            "path",
+            "type"
+        ],
+        "textRaw": "fs.symlinkSync(target, path[, type])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "path",
+            "len",
+            "callback"
+        ],
+        "textRaw": "fs.truncate(path, len, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "path",
+            "len"
+        ],
+        "textRaw": "fs.truncateSync(path, len)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "path",
+            "callback"
+        ],
+        "textRaw": "fs.unlink(path, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "path"
+        ],
+        "textRaw": "fs.unlinkSync(path)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "filename",
+            "listener"
+        ],
+        "textRaw": "fs.unwatchFile(filename[, listener])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "path",
+            "atime",
+            "mtime",
+            "callback"
+        ],
+        "textRaw": "fs.utimes(path, atime, mtime, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "path",
+            "atime",
+            "mtime"
+        ],
+        "textRaw": "fs.utimesSync(path, atime, mtime)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "filename",
+            "options",
+            "listener"
+        ],
+        "textRaw": "fs.watch(filename[, options][, listener])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "filename",
+            "options",
+            "listener"
+        ],
+        "textRaw": "fs.watchFile(filename[, options], listener)"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "fd",
+            "buffer",
+            "offset",
+            "length",
+            "position",
+            "callback"
+        ],
+        "textRaw": "fs.write(fd, buffer[, offset[, length[, position]]], callback)"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "fd",
+            "string",
+            "position",
+            "encoding",
+            "callback"
+        ],
+        "textRaw": "fs.write(fd, string[, position[, encoding]], callback)"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "file",
+            "data",
+            "options",
+            "callback"
+        ],
+        "textRaw": "fs.writeFile(file, data[, options], callback)"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "file",
+            "data",
+            "options"
+        ],
+        "textRaw": "fs.writeFileSync(file, data[, options])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "fd",
+            "buffer",
+            "offset",
+            "length",
+            "position"
+        ],
+        "textRaw": "fs.writeSync(fd, buffer[, offset[, length[, position]]])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "fd",
+            "string",
+            "position",
+            "encoding"
+        ],
+        "textRaw": "fs.writeSync(fd, string[, position[, encoding]])"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "watcher.close()"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "requestListener"
+        ],
+        "textRaw": "http.createServer([requestListener])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "options",
+            "callback"
+        ],
+        "textRaw": "http.get(options[, callback])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "options",
+            "callback"
+        ],
+        "textRaw": "http.request(options[, callback])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "options",
+            "callback"
+        ],
+        "textRaw": "agent.createConnection(options[, callback])"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "agent.destroy()"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "options"
+        ],
+        "textRaw": "agent.getName(options)"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "request.abort()"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "data",
+            "encoding",
+            "callback"
+        ],
+        "textRaw": "request.end([data][, encoding][, callback])"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "request.flushHeaders()"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "noDelay"
+        ],
+        "textRaw": "request.setNoDelay([noDelay])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "enable",
+            "initialDelay"
+        ],
+        "textRaw": "request.setSocketKeepAlive([enable][, initialDelay])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "timeout",
+            "callback"
+        ],
+        "textRaw": "request.setTimeout(timeout[, callback])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "chunk",
+            "encoding",
+            "callback"
+        ],
+        "textRaw": "request.write(chunk[, encoding][, callback])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "callback"
+        ],
+        "textRaw": "server.close([callback])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "handle",
+            "callback"
+        ],
+        "textRaw": "server.listen(handle[, callback])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "path",
+            "callback"
+        ],
+        "textRaw": "server.listen(path[, callback])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "port",
+            "hostname",
+            "backlog",
+            "callback"
+        ],
+        "textRaw": "server.listen([port][, hostname][, backlog][, callback])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "msecs",
+            "callback"
+        ],
+        "textRaw": "server.setTimeout(msecs, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "headers"
+        ],
+        "textRaw": "response.addTrailers(headers)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "data",
+            "encoding",
+            "callback"
+        ],
+        "textRaw": "response.end([data][, encoding][, callback])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "name"
+        ],
+        "textRaw": "response.getHeader(name)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "name"
+        ],
+        "textRaw": "response.removeHeader(name)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "name",
+            "value"
+        ],
+        "textRaw": "response.setHeader(name, value)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "msecs",
+            "callback"
+        ],
+        "textRaw": "response.setTimeout(msecs, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "chunk",
+            "encoding",
+            "callback"
+        ],
+        "textRaw": "response.write(chunk[, encoding][, callback])"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "response.writeContinue()"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "statusCode",
+            "statusMessage",
+            "headers"
+        ],
+        "textRaw": "response.writeHead(statusCode[, statusMessage][, headers])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "error"
+        ],
+        "textRaw": "message.destroy([error])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "msecs",
+            "callback"
+        ],
+        "textRaw": "message.setTimeout(msecs, callback)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "options",
+            "requestListener"
+        ],
+        "textRaw": "https.createServer(options[, requestListener])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "options",
+            "callback"
+        ],
+        "textRaw": "https.get(options, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "options",
+            "callback"
+        ],
+        "textRaw": "https.request(options, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "msecs",
+            "callback"
+        ],
+        "textRaw": "server.setTimeout(msecs, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "options",
+            "connectListener"
+        ],
+        "textRaw": "net.connect(options[, connectListener])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "path",
+            "connectListener"
+        ],
+        "textRaw": "net.connect(path[, connectListener])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "port",
+            "host",
+            "connectListener"
+        ],
+        "textRaw": "net.connect(port[, host][, connectListener])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "options",
+            "connectListener"
+        ],
+        "textRaw": "net.createConnection(options[, connectListener])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "path",
+            "connectListener"
+        ],
+        "textRaw": "net.createConnection(path[, connectListener])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "port",
+            "host",
+            "connectListener"
+        ],
+        "textRaw": "net.createConnection(port[, host][, connectListener])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "options",
+            "connectionListener"
+        ],
+        "textRaw": "net.createServer([options][, connectionListener])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "input"
+        ],
+        "textRaw": "net.isIP(input)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "input"
+        ],
+        "textRaw": "net.isIPv4(input)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "input"
+        ],
+        "textRaw": "net.isIPv6(input)"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "server.address()"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "callback"
+        ],
+        "textRaw": "server.close([callback])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "callback"
+        ],
+        "textRaw": "server.getConnections(callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "handle",
+            "backlog",
+            "callback"
+        ],
+        "textRaw": "server.listen(handle[, backlog][, callback])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "options",
+            "callback"
+        ],
+        "textRaw": "server.listen(options[, callback])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "path",
+            "backlog",
+            "callback"
+        ],
+        "textRaw": "server.listen(path[, backlog][, callback])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "port",
+            "hostname",
+            "backlog",
+            "callback"
+        ],
+        "textRaw": "server.listen([port][, hostname][, backlog][, callback])"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "server.ref()"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "server.unref()"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "options"
+        ],
+        "textRaw": "new net.Socket([options])"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "socket.address()"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "options",
+            "connectListener"
+        ],
+        "textRaw": "socket.connect(options[, connectListener])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "port",
+            "host",
+            "connectListener"
+        ],
+        "textRaw": "socket.connect(path[, connectListener])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "port",
+            "host",
+            "connectListener"
+        ],
+        "textRaw": "socket.connect(port[, host][, connectListener])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "exception"
+        ],
+        "textRaw": "socket.destroy([exception])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "data",
+            "encoding"
+        ],
+        "textRaw": "socket.end([data][, encoding])"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "socket.pause()"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "socket.ref()"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "socket.resume()"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "encoding"
+        ],
+        "textRaw": "socket.setEncoding([encoding])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "enable",
+            "initialDelay"
+        ],
+        "textRaw": "socket.setKeepAlive([enable][, initialDelay])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "noDelay"
+        ],
+        "textRaw": "socket.setNoDelay([noDelay])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "timeout",
+            "callback"
+        ],
+        "textRaw": "socket.setTimeout(timeout[, callback])"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "socket.unref()"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "data",
+            "encoding",
+            "callback"
+        ],
+        "textRaw": "socket.write(data[, encoding][, callback])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "stream",
+            "dir"
+        ],
+        "textRaw": "readline.clearLine(stream, dir)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "stream"
+        ],
+        "textRaw": "readline.clearScreenDown(stream)"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "options"
+        ],
+        "textRaw": "readline.createInterface(options)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "stream",
+            "x",
+            "y"
+        ],
+        "textRaw": "readline.cursorTo(stream, x, y)"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "stream",
+            "interface"
+        ],
+        "textRaw": "readline.emitKeypressEvents(stream[, interface])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "stream",
+            "dx",
+            "dy"
+        ],
+        "textRaw": "readline.moveCursor(stream, dx, dy)"
+    },
+    {
+        "cl": 0,
+        "params": [],
+        "textRaw": "rl.close()"
+    },
+    {
+        "cl": 0,
+        "params": [],
+        "textRaw": "rl.pause()"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "preserveCursor"
+        ],
+        "textRaw": "rl.prompt([preserveCursor])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "query",
+            "callback"
+        ],
+        "textRaw": "rl.question(query, callback)"
+    },
+    {
+        "cl": 0,
+        "params": [],
+        "textRaw": "rl.resume()"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "prompt"
+        ],
+        "textRaw": "rl.setPrompt(prompt)"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "data",
+            "key"
+        ],
+        "textRaw": "rl.write(data[, key])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "options"
+        ],
+        "textRaw": "repl.start([options])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "keyword",
+            "cmd"
+        ],
+        "textRaw": "replServer.defineCommand(keyword, cmd)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "preserveCursor"
+        ],
+        "textRaw": "replServer.displayPrompt([preserveCursor])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "buffer"
+        ],
+        "textRaw": "stringDecoder.end([buffer])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "buffer"
+        ],
+        "textRaw": "stringDecoder.write(buffer)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "port",
+            "host",
+            "options",
+            "callback"
+        ],
+        "textRaw": "tls.connect(port[, host][, options][, callback])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "path",
+            "options",
+            "callback"
+        ],
+        "textRaw": "tls.connect(path[, options][, callback])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "options",
+            "callback"
+        ],
+        "textRaw": "tls.connect(options[, callback])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "options"
+        ],
+        "textRaw": "tls.createSecureContext(options)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "options",
+            "secureConnectionListener"
+        ],
+        "textRaw": "tls.createServer([options][, secureConnectionListener])"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "tls.getCiphers()"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "hostname",
+            "context"
+        ],
+        "textRaw": "server.addContext(hostname, context)"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "server.address()"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "callback"
+        ],
+        "textRaw": "server.close([callback])"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "server.getTicketKeys()"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "port",
+            "hostname",
+            "callback"
+        ],
+        "textRaw": "server.listen(port[, hostname][, callback])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "keys"
+        ],
+        "textRaw": "server.setTicketKeys(keys)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "socket",
+            "options"
+        ],
+        "textRaw": "new tls.TLSSocket(socket[, options])"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "tlsSocket.address()"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "tlsSocket.getCipher()"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "tlsSocket.getEphemeralKeyInfo()"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "detailed"
+        ],
+        "textRaw": "tlsSocket.getPeerCertificate([ detailed ])"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "tlsSocket.getProtocol()"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "tlsSocket.getSession()"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "tlsSocket.getTLSTicket()"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "options",
+            "callback"
+        ],
+        "textRaw": "tlsSocket.renegotiate(options, callback)"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "size"
+        ],
+        "textRaw": "tlsSocket.setMaxSendFragment(size)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "fd"
+        ],
+        "textRaw": "tty.isatty(fd)"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "mode"
+        ],
+        "textRaw": "readStream.setRawMode(mode)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "sandbox"
+        ],
+        "textRaw": "vm.createContext([sandbox])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "sandbox"
+        ],
+        "textRaw": "vm.isContext(sandbox)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "code",
+            "contextifiedSandbox",
+            "options"
+        ],
+        "textRaw": "vm.runInContext(code, contextifiedSandbox[, options])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "code"
+        ],
+        "textRaw": "vm.runInDebugContext(code)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "code",
+            "sandbox",
+            "options"
+        ],
+        "textRaw": "vm.runInNewContext(code[, sandbox][, options])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "code",
+            "options"
+        ],
+        "textRaw": "vm.runInThisContext(code[, options])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "code",
+            "options"
+        ],
+        "textRaw": "new vm.Script(code, options)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "contextifiedSandbox",
+            "options"
+        ],
+        "textRaw": "script.runInContext(contextifiedSandbox[, options])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "sandbox",
+            "options"
+        ],
+        "textRaw": "script.runInNewContext([sandbox][, options])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "options"
+        ],
+        "textRaw": "script.runInThisContext([options])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "options"
+        ],
+        "textRaw": "zlib.createDeflate([options])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "options"
+        ],
+        "textRaw": "zlib.createDeflateRaw([options])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "options"
+        ],
+        "textRaw": "zlib.createGunzip([options])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "options"
+        ],
+        "textRaw": "zlib.createGzip([options])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "options"
+        ],
+        "textRaw": "zlib.createInflate([options])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "options"
+        ],
+        "textRaw": "zlib.createInflateRaw([options])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "options"
+        ],
+        "textRaw": "zlib.createUnzip([options])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "kind",
+            "callback"
+        ],
+        "textRaw": "zlib.flush([kind], callback)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "level",
+            "strategy",
+            "callback"
+        ],
+        "textRaw": "zlib.params(level, strategy, callback)"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "zlib.reset()"
+    },
+    {
+        "cl": 0,
+        "params": [],
+        "textRaw": "Class: Buffer"
+    },
+    {
+        "cl": 0,
+        "params": [],
+        "textRaw": "clearImmediate(immediateObject)"
+    },
+    {
+        "cl": 0,
+        "params": [],
+        "textRaw": "clearInterval(intervalObject)"
+    },
+    {
+        "cl": 0,
+        "params": [],
+        "textRaw": "clearTimeout(timeoutObject)"
+    },
+    {
+        "cl": 0,
+        "params": [],
+        "textRaw": "console"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "global"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "process"
+    },
+    {
+        "cl": 2,
+        "params": [],
+        "textRaw": "setImmediate(callback[, ...args])"
+    },
+    {
+        "cl": 2,
+        "params": [],
+        "textRaw": "setInterval(callback, delay[, ...args])"
+    },
+    {
+        "cl": 2,
+        "params": [],
+        "textRaw": "setTimeout(callback, delay[, ...args])"
+    },
+    {
+        "cl": 0,
+        "params": [],
+        "textRaw": "process.abort()"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "directory"
+        ],
+        "textRaw": "process.chdir(directory)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "previousValue"
+        ],
+        "textRaw": "process.cpuUsage([previousValue])"
+    },
+    {
+        "cl": 0,
+        "params": [],
+        "textRaw": "process.cwd()"
+    },
+    {
+        "cl": 0,
+        "params": [],
+        "textRaw": "process.disconnect()"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "warning",
+            "name",
+            "ctor"
+        ],
+        "textRaw": "process.emitWarning(warning[, name][, ctor])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "code"
+        ],
+        "textRaw": "process.exit([code])"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "process.getegid()"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "process.geteuid()"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "process.getgid()"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "process.getgroups()"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "process.getuid()"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "time"
+        ],
+        "textRaw": "process.hrtime([time])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "user",
+            "extra_group"
+        ],
+        "textRaw": "process.initgroups(user, extra_group)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "pid",
+            "signal"
+        ],
+        "textRaw": "process.kill(pid[, signal])"
+    },
+    {
+        "cl": 0,
+        "params": [],
+        "textRaw": "process.memoryUsage()"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "callback",
+            "...args"
+        ],
+        "textRaw": "process.nextTick(callback[, ...args])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "message",
+            "sendHandle",
+            "options",
+            "callback"
+        ],
+        "textRaw": "process.send(message[, sendHandle[, options]][, callback])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "id"
+        ],
+        "textRaw": "process.setegid(id)"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "id"
+        ],
+        "textRaw": "process.seteuid(id)"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "id"
+        ],
+        "textRaw": "process.setgid(id)"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "groups"
+        ],
+        "textRaw": "process.setgroups(groups)"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "id"
+        ],
+        "textRaw": "process.setuid(id)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "mask"
+        ],
+        "textRaw": "process.umask([mask])"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "process.uptime()"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "writable.cork()"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "chunk",
+            "encoding",
+            "callback"
+        ],
+        "textRaw": "writable.end([chunk][, encoding][, callback])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "encoding"
+        ],
+        "textRaw": "writable.setDefaultEncoding(encoding)"
+    },
+    {
+        "cl": 2,
+        "params": [],
+        "textRaw": "writable.uncork()"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "chunk",
+            "encoding",
+            "callback"
+        ],
+        "textRaw": "writable.write(chunk[, encoding][, callback])"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "readable.isPaused()"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "readable.pause()"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "destination",
+            "options"
+        ],
+        "textRaw": "readable.pipe(destination[, options])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "size"
+        ],
+        "textRaw": "readable.read([size])"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "readable.resume()"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "encoding"
+        ],
+        "textRaw": "readable.setEncoding(encoding)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "destination"
+        ],
+        "textRaw": "readable.unpipe([destination])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "chunk"
+        ],
+        "textRaw": "readable.unshift(chunk)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "stream"
+        ],
+        "textRaw": "readable.wrap(stream)"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "callback",
+            "...args"
+        ],
+        "textRaw": "setImmediate(callback[, ...args])"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "callback",
+            "delay",
+            "...args"
+        ],
+        "textRaw": "setInterval(callback, delay[, ...args])"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "callback",
+            "delay",
+            "...args"
+        ],
+        "textRaw": "setTimeout(callback, delay[, ...args])"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "immediate"
+        ],
+        "textRaw": "clearImmediate(immediate)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "timeout"
+        ],
+        "textRaw": "clearInterval(timeout)"
+    },
+    {
+        "cl": 0,
+        "params": [
+            "timeout"
+        ],
+        "textRaw": "clearTimeout(timeout)"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "timeout.ref()"
+    },
+    {
+        "cl": 0,
+        "params": [],
+        "textRaw": "timeout.unref()"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "urlObject"
+        ],
+        "textRaw": "url.format(urlObject)"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "urlString",
+            "parseQueryString",
+            "slashesDenoteHost"
+        ],
+        "textRaw": "url.parse(urlString[, parseQueryString[, slashesDenoteHost]])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "from",
+            "to"
+        ],
+        "textRaw": "url.resolve(from, to)"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "domain"
+        ],
+        "textRaw": "require('url').domainToAscii(domain)"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "domain"
+        ],
+        "textRaw": "require('url').domainToUnicode(domain)"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "url.toString()"
+    },
+    {
+        "cl": -1,
+        "params": [
+            "name",
+            "value"
+        ],
+        "textRaw": "Constructor: new URLSearchParams([init])"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "name",
+            "value"
+        ],
+        "textRaw": "urlSearchParams.append(name, value)"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "name"
+        ],
+        "textRaw": "urlSearchParams.delete(name)"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "urlSearchParams.entries()"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "fn"
+        ],
+        "textRaw": "urlSearchParams.forEach(fn)"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "name"
+        ],
+        "textRaw": "urlSearchParams.get(name)"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "name"
+        ],
+        "textRaw": "urlSearchParams.getAll(name)"
+    },
+    {
+        "cl": 1,
+        "params": [
+            "name"
+        ],
+        "textRaw": "urlSearchParams.has(name)"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "urlSearchParams.keys()"
+    },
+    {
+        "cl": 2,
+        "params": [
+            "name",
+            "value"
+        ],
+        "textRaw": "urlSearchParams.set(name, value)"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "urlSearchParams.toString()"
+    },
+    {
+        "cl": 1,
+        "params": [],
+        "textRaw": "urlSearchParams.values()"
+    },
+    {
+        "cl": -1,
+        "params": [],
+        "textRaw": "urlSearchParams\\[\\@\\@iterator\\]()"
+    }
+]

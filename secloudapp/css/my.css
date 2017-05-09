@@ -1,0 +1,117 @@
+.btn{
+  margin: 10px;
+}
+
+.btn-lg{
+  height:40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.to-bottom{
+  position: absolute;
+  bottom: 5px;
+}
+
+.row-no-margin {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar-brand {
+  font-size: 35px;
+}
+
+.navbar-header {
+  vertical-align: middle;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+
+.btn-primary.btn-outline {
+    color: #428bca;
+}
+
+.btn-success.btn-outline {
+    color: #5cb85c;
+}
+
+.btn-info.btn-outline {
+    color: #5bc0de;
+}
+
+.btn-warning.btn-outline {
+    color: #f0ad4e;
+}
+
+.btn-danger.btn-outline {
+    color: #d9534f;
+}
+
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+    color: #fff;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: 0px;
+  outline-offset: 0px;
+}
+
+.tr_source{
+  background-color: rgba(255,0,0,0.1);
+}
+.tr_sink{
+  background-color: rgba(128,0,128,0.2);
+}
+.tr_neither{
+  background-color: rgba(0,255,0,0.1);
+}
+
+.navbar-inverse {
+  background-color: #062f70;
+  border-color: #080808;
+}
+.navbar-inverse .navbar-brand {
+  color: #d1690e;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #d1690e;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-text {
+  color: #d1690e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: #d1690e;
+}
+.canvasjs-chart-credit {
+   display: none;
+}
