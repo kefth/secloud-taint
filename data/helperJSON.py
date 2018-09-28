@@ -128,9 +128,15 @@ class DataProcess(object):
         else:
             return 0
 
+    def has_log(self, text):
+        if '.log' in text:
+            return 1
+        else:
+            return 0
+
 ##########################################################
 
 # a method to return a tuple of all features
 
     def get_features(self, text):
-                return (self.has_get(text), self.has_set(text), self.has_read(text), self.has_write(text), self.has_loc(text), self.has_href(text), self.has_win(text), self.has_url(text), self.has_doc(text), self.has_search(text), self.has_ref(text), self.has_cookie(text), self.has_session(text), self.has_exec(text), self.has_src(text))
+                return (self.has_get(text), self.has_set(text), self.has_read(text), self.has_write(text), self.has_loc(text), self.has_href(text), self.has_win(text), self.has_url(text), self.has_doc(text), self.has_search(text), self.has_ref(text), self.has_cookie(text), self.has_session(text), self.has_exec(text), self.has_src(text), self.has_log(text))

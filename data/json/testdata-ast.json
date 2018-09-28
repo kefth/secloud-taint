@@ -1,0 +1,23 @@
+[
+  {
+    "textRaw":"input.getValue(123)",
+    "meta": "info1"
+  },
+  {
+    "textRaw":"console.log(b)",
+    "meta": "info2"
+  },
+  {
+      "cl": -1,
+      "params": [],
+      "textRaw": "urlSearchParams\\[\\@\\@iterator\\]()"
+  },
+  {
+      "cl": -1,
+      "params": [
+          "private_key",
+          "encoding"
+      ],
+      "textRaw": "ecdh.setPrivateKey(private_key[, encoding])"
+  }
+]
