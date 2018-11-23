@@ -712,7 +712,7 @@
         "textRaw": "console.info([data][, ...args])"
     },
     {
-        "cl": 1,
+        "cl": 2,
         "params": [
             "data",
             "...args"
